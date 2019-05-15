@@ -1,6 +1,5 @@
 Reference：
-1. [https://imququ.com/post/elasticsearch.html]('使用 Elasticsearch 实现博客站内搜索
-')
+1. [使用 Elasticsearch 实现博客站内搜索](https://imququ.com/post/elasticsearch.html)
 
 config path:
 /usr/local/etc/elasticsearch
