@@ -2,78 +2,79 @@
 
 from elasticsearch import Elasticsearch
 import json
+import os
+import time
+import hashlib
+# import es_config
 
 es = Elasticsearch()
 
-mapping = {
-    'properties': {
-        'title': {
-            'type': 'text',
-            'analyzer': 'ik_max_word',
-            'search_analyzer': 'ik_max_word'
-        }
-    }
-}
+
+def get_sha1_value(_str):                                                      
+    my_sha = hashlib.sha1()
+    my_sha.update(_str)
+    my_sha_Digest = my_sha.hexdigest()
+    return my_sha_Digest
+
+def get_time_stamp():
+    time_str = str(int(round(time.time() * 1000))).encode()
+    return get_sha1_value(time_str)
 
 def create_index(_index):
-    result = es.indices.create(index=_index, ignore=400)
-    print(result)
+    # content = os.popen("curl -XPUT http://localhost:9200/"+_index).read()
+    content = es.indices.create(index=_index,ignore=400)
+    print(content)
 
 def delete_index(_index):
-    result = es.indices.delete(index=_index, ignore=[400,404])
-    print(result)
+    # content = os.popen("curl -XDELETE http://localhost:9200/"+_index).read()
+    content = es.indices.delete(index=_index,ignore=[400,404])
+    print(content)
 
-def insert_into_index(_index,_doc_type,_data):
-    result = es.index(index=_index,doc_type=_doc_type,body=_data)
-    print(result)
+def insert_into_index(_index,_data):
+    content = os.popen("curl -XPOST http://localhost:9200/"+_index+"/_create/"+get_time_stamp()+" -H 'Content-Type:application/json' -d'"+json.dumps(_data)+"'\n").read()
+    # result = es.index(index=_index,body=_data)
+    print(content)
 
-def search_index(_index,_doc_type):
-    result = es.search(index=_index,doc_type=_doc_type)
-    print(result)
+def create_mapping(_index,_mapping):
+    content = os.popen("curl -XPOST http://localhost:9200/"+_index+"/_mapping -H 'Content-Type:application/json' -d'"+json.dumps(_mapping)+"\n'").read()
+    print(content)
+
+
+def search_index(_index,dsl):
+    # result = es.search(index=_index,doc_type=_doc_type)
+    # print(result)
+    content = os.popen("curl -XPOST http://localhost:9200/"+_index+"/_search  -H 'Content-Type:application/json' -d'"+json.dumps(dsl)+"\n'").read()
+    print(content)
+
 
 if __name__ == "__main__":
-    delete_index("my_first_index")
-    create_index("my_first_index")
-    result = es.indices.put_mapping(index="my_first_index",doc_type="politics",body=mapping)
-    datas = [
-        {
-            'title': '美国留给伊拉克的是个烂摊子吗',
-            'url': 'http://view.news.qq.com/zt2011/usa_iraq/index.htm',
-            'date': '2011-12-16'
-        },
-        {
-            'title': '公安部：各地校车将享最高路权',
-            'url': 'http://www.chinanews.com/gn/2011/12-16/3536077.shtml',
-            'date': '2011-12-16'
-        },
-        {
-            'title': '中韩渔警冲突调查：韩警平均每天扣1艘中国渔船',
-            'url': 'https://news.qq.com/a/20111216/001044.htm',
-            'date': '2011-12-17'
-        },
-        {
-            'title': '中国驻洛杉矶领事馆遭亚裔男子枪击 嫌犯已自首',
-            'url': 'http://news.ifeng.com/world/detail_2011_12/16/11372558_0.shtml',
-            'date': '2011-12-18'
-        },
-        {
-            'title': '测试测试',
-            'url': 'http://news.ifeng.com/world/detail_2011_12/16/11372558_0.shtml',
-            'date': '1111-11-11'
-        }
-    ]
-    
-    for data in datas:
-        insert_into_index('my_first_index', 'politics', data)
-        
-    # search_index('my_first_index','politics')
-    dsl={
-        'query':{
-            'match_all':{
+    # 清空数据库
+    _index = "myindex"
+    delete_index(_index)
+    create_index(_index)
+
+    # 插入mapping
+    mapping = {
+        "properties": {
+            "name": {
+                "type":    "string",
+                "index": "not_analyzed"
+            },
+            "phone": {
+                "type":    "string",
+                "index": "not_analyzed"
             }
         }
     }
 
-    # es = Elasticsearch()
-    result=es.search(index='my_first_index',body=dsl)
-    print(json.dumps(result,indent=2,ensure_ascii=False))
+    es.indices.put_mapping(_index,body=mapping)
+
+    a = es.indices.get_mapping(_index)
+    print(a)
+
+
+
+
+
+
+    
