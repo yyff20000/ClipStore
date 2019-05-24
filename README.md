@@ -9,3 +9,9 @@ CREATE TABLE articles (
 
 CREATE FULLTEXT INDEX ft_index ON articles (title,body) WITH PARSER ngram;
 ```
+
+TODO:
+1. upload by file
+2. upload by url
+3. search result highlight
+4. chrome plugin (set local server address)
