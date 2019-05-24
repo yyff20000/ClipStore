@@ -1,13 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
- 
-// 创建连接
-$conn = new mysqli($servername, $username, $password);
- 
-// 检测连接
-if ($conn->connect_error) {
-    die("连接失败: " . $conn->connect_error);
-} 
-echo "连接成功";
+// namespace ClipStore; 
+require_once(dirname(__FILE__)."/config.php");
+require_once(dirname(__FILE__)."/utils.php");
+
+
+echo html_render("index.html");
+
+check_uploads();
+// var_dump(process_uploads());
+// process_uploads("Python沙箱逃逸总结 _ HatBoy的个人主页.html");
+
