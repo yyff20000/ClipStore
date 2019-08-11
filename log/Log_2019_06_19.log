@@ -1,0 +1,8 @@
+[2019-06-19 16:47:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-19 16:47:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./articles/index.html
+[2019-06-19 16:47:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/php中利用格式化字符串漏洞绕过addslashes注入 - 98年生的猫 coding.html
+[2019-06-19 16:47:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/php中利用格式化字符串漏洞绕过addslashes注入 - 98年生的猫 coding.html
+[2019-06-19 16:47:36] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-19 16:47:36] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  mimikatz
+[2019-06-19 16:47:50] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-19 16:47:50] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  深入分析

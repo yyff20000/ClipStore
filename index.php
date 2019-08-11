@@ -4,7 +4,7 @@ require_once(dirname(__FILE__)."/config.php");
 require_once(dirname(__FILE__)."/utils.php");
 
 
-echo html_render("index.html");
+echo html_render(True, "index.html");
 
 check_uploads();
 // var_dump(process_uploads());

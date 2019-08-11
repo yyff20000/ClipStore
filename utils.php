@@ -1,6 +1,6 @@
 <?php
 // namespace ClipStore; 
-ini_set('memory_limit','-1');
+// ini_set('memory_limit','-1');
 require_once(dirname(__FILE__)."/config.php");
 /** 
  * 日志类 
@@ -73,9 +73,16 @@ class Log{
  * function html_render
  * @todo security
  */
-function html_render($filename){
-    $pre_path = "./articles/";
+function html_render($is_static, $filename){
+    // $pre_path = '';
+    // var_dump($is_static);
+    if($is_static){
+        $pre_path = "./statics/template/";
+    }else{
+        $pre_path = "./articles/";
+    }
     $full_path = $pre_path.$filename;
+    // print($full_path);
     if(file_exists($full_path)){
         Log::write('[INFO] '.__FILE__.': Render_file exists->'.$full_path);
         return file_get_contents($full_path);
@@ -122,14 +129,16 @@ function stripHtmlTags($str){
 }
 
 function check_uploads(){
+    
     $upload_folder = scandir("./uploads");
     $flag = 0;
     foreach($upload_folder as $a){
-        if($a!=='.' && $a!==".."){
+        if($a!=='.' && $a!==".."&& strtolower(pathinfo($a, PATHINFO_EXTENSION))==="html" ){
             // echo $a."<br/>";
-            print_r("Uploading: ./uploads/".$a."<br/>");
+            // print_r("Uploading: ./uploads/".$a."<br/>");
+            Log::write('[INFO] '.__FILE__.": Uploading: ./uploads/".$a);
             process_uploads($a);
-            print_r("Success ! <br/></br>");
+            Log::write('[INFO] '.__FILE__.": Success uploaded: ./uploads/".$a);
         }
     }
     if($flag ===1){

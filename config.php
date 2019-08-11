@@ -9,7 +9,7 @@ if(!defined("LOG_PATH")){
     define('LOG_PATH',dirname(__FILE__).DS.'log'.DS);
 }
 
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "root";
 $dbname = "ClipStore";

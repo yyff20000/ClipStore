@@ -1,0 +1,157 @@
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./articles/index.html
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/Confluence 未授权 RCE (CVE-2019-3396) 漏洞分析.html
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/Confluence 未授权 RCE (CVE-2019-3396) 漏洞分析.html
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/Oracle注入总结 - py7hon - 博客园.html
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/Oracle注入总结 - py7hon - 博客园.html
+[2019-06-28 01:56:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/ThinkPHP 5.0.10-3.2.3 缓存函数设计缺陷可导致 Getshell.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/ThinkPHP 5.0.10-3.2.3 缓存函数设计缺陷可导致 Getshell.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/从WordPress SQLi谈PHP格式化字符串问题（2017.11.01更新）.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/从WordPress SQLi谈PHP格式化字符串问题（2017.11.01更新）.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/深入分析Mimikatz：SSP - 安全客，安全资讯平台.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/深入分析Mimikatz：SSP - 安全客，安全资讯平台.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/深入分析Mimikatz：WDigest - 安全客，安全资讯平台.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/深入分析Mimikatz：WDigest - 安全客，安全资讯平台.html
+[2019-06-28 01:56:34] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/深入理解JSObject内部实现 - 安全客，安全资讯平台.html
+[2019-06-28 01:56:35] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/深入理解JSObject内部实现 - 安全客，安全资讯平台.html
+[2019-06-28 01:56:35] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/玩转COM对象 - 安全客，安全资讯平台.html
+[2019-06-28 01:56:35] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/玩转COM对象 - 安全客，安全资讯平台.html
+[2019-06-28 01:56:35] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Uploading: ./uploads/玩转COM对象（Part 2） - 安全客，安全资讯平台.html
+[2019-06-28 01:56:35] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Success uploaded: ./uploads/玩转COM对象（Part 2） - 安全客，安全资讯平台.html
+[2019-06-28 01:56:41] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:56:41] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  com对象
+[2019-06-28 01:56:49] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:56:49] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  反序列化
+[2019-06-28 01:56:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:56:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  +反序列化
+[2019-06-28 01:57:00] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:57:00] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  +反序列化 +php
+[2019-06-28 01:57:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 01:57:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  +注入 +addslashes
+[2019-06-28 02:06:03] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:03] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:06:08] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:08] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:06:36] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:36] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:06:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:37] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:06:38] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:38] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:06:40] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:06:40] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:07:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:07:37] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:07:56] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:07:56] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:08:18] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:08:18] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:08:55] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:08:59] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:08:59] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:10:06] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:10:06] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:10:12] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:10:12] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->index.html
+[2019-06-28 02:10:15] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:10:15] [DEBUG] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file not exists->./articles/index.html
+[2019-06-28 02:10:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:10:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:11:24] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:11:24] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:11:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:11:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:12:28] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:12:28] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  s
+[2019-06-28 02:12:31] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:12:31] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:18:51] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:18:51] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:18:53] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:18:53] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xs
+[2019-06-28 02:21:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:21:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:21:56] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:21:56] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:24:00] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:24:00] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:24:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:24:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  sxx
+[2019-06-28 02:24:04] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:24:04] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:24:24] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:24:24] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:24:26] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:24:26] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:25:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:25:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:25:04] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:25:04] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xs
+[2019-06-28 02:27:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:27:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:27:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:27:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:44:26] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:44:26] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:44:28] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:44:28] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:44:53] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:44:53] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:44:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:44:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:45:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:45:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:45:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:45:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:45:48] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:45:48] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:45:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:45:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 02:46:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:46:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:47:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:47:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:47:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:47:37] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  绕过
+[2019-06-28 02:47:45] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:47:45] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:48:45] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:48:45] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 02:51:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:51:29] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:51:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:51:33] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入 
+[2019-06-28 02:51:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:51:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:51:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:51:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 02:52:18] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:52:18] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:52:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:52:21] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 02:57:12] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:57:12] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:57:14] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:57:14] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  xss
+[2019-06-28 02:57:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:57:19] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 02:58:36] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:58:36] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 02:58:40] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 02:58:40] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 03:01:13] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:01:13] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 03:01:17] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:01:17] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 03:29:50] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:29:50] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 03:29:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:29:54] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 03:30:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:30:52] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 03:30:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:30:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入
+[2019-06-28 03:34:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/clipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:34:57] [INFO] /Users/fy/Documents/项目/WWW/PHP/clipStore/utils.php: Render_file exists->./statics/template/index.html
+[2019-06-28 03:35:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/clipStore/config.php: PDO connect OK -> #
+[2019-06-28 03:35:02] [INFO] /Users/fy/Documents/项目/WWW/PHP/clipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  注入

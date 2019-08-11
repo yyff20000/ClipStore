@@ -13,6 +13,7 @@ if(isset($_GET['key'])){
     $stmt->bindParam("1",$sql_key);
     $sql_key = $key_words;
     $stmt->execute();
+    Log::write('[INFO] '.__FILE__.': DB search -> '.$query."  ".$key_words);
     // foreach( $conn->query($query) as $row ){
     //     print_r( $row );
     // }

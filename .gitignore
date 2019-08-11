@@ -1,0 +1,7 @@
+uploads/*
+.vscode/
+log/*
+test.php
+vendor/
+composer.*
+articles/*
