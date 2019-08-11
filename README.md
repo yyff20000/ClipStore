@@ -24,7 +24,7 @@
 创建数据库
 
 ``` sql
-CREATE DATABASE ClipStore;
+CREATE DATABASE ClipStore;
 ```
 创建数据表
 ``` sql
