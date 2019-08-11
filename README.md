@@ -1,8 +1,8 @@
-## 一、介绍
+## 1.介绍
 用于CTF线下参考的离线全文搜索工具。
 配合Chrome插件[Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof?hl=zh-CN)食用。
 
-## 二、效果
+## 2.效果
 
 界面:
 
@@ -20,7 +20,7 @@
 
 ![](./README/4.png)
 
-## 三、安装
+## 3.安装
 创建数据库
 
 ``` sql
@@ -48,7 +48,7 @@ $password = "root";
 $dbname = "ClipStore";
 ```
 
-## 四、用法：
+## 3.用法：
 
 用Chrome插件[Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof?hl=zh-CN)将网页保存为html文本后丢到```./uploads```文件夹下即可。
 
