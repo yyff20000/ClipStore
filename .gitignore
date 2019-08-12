@@ -1,7 +1,8 @@
-uploads/*
+uploads/
 .vscode/
-log/*
+log/
 test.php
 vendor/
 composer.*
-articles/*
+articles/
+.DS_STORE/
