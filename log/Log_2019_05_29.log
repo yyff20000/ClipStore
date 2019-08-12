@@ -1,8 +1,0 @@
-[2019-05-29 10:52:08] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
-[2019-05-29 10:52:08] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./articles/index.html
-[2019-05-29 10:52:11] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
-[2019-05-29 10:52:11] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  编码
-[2019-05-29 10:53:46] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
-[2019-05-29 10:53:46] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/utils.php: Render_file exists->./articles/index.html
-[2019-05-29 10:53:49] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/config.php: PDO connect OK -> #
-[2019-05-29 10:53:49] [INFO] /Users/fy/Documents/项目/WWW/PHP/ClipStore/search.php: DB search -> SELECT id,title from articles WHERE MATCH (title,body) AGAINST (? IN BOOLEAN MODE);  编码
