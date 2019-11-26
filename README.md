@@ -24,11 +24,11 @@
 创建数据库
 
 ``` sql
-CREATE DATABASE ClipStore;
+CREATE DATABASE ClipStore DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 ```
 创建数据表
 ``` sql
-CREATE TABLE articles CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; (
+CREATE TABLE articles (
     id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
     title VARCHAR (200),
 		file_path VARCHAR(500),
