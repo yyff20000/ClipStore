@@ -28,7 +28,7 @@ CREATE DATABASE ClipStore;
 ```
 创建数据表
 ``` sql
-CREATE TABLE articles (
+CREATE TABLE articles CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; (
     id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
     title VARCHAR (200),
 		file_path VARCHAR(500),
