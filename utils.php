@@ -96,9 +96,17 @@ function process_uploads($filename){
     global $conn;
     $pre_path = "./uploads/";
     $full_path = $pre_path.$filename;
+    // echo($full_path);
     $actual_path = "./articles/".$filename;
     if(file_exists($full_path)){
-        $content = stripHtmlTags(file_get_contents($full_path));
+        if ( mb_internal_encoding()!="UTF-8") {
+            mb_internal_encoding("UTF-8");
+        }
+        $content = file_get_contents($full_path);
+        if (mb_check_encoding($content, "GBK")) {
+            $content =  mb_convert_encoding($content, "UTF-8", "GBK");
+        }
+        $content = stripHtmlTags($content);
         $content = strip_tags($content);
         $content = preg_replace("/[\r\n\t\f\v]/",'',$content);
         // $content = trim($content);
